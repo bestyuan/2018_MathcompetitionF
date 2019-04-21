@@ -1,10 +1,14 @@
 # -*- coding: utf-8 -*-
+
+
 import time
 import xlrd
 import datetime
 import pandas as pd
 from xlrd import xldate_as_tuple
 import matplotlib.pyplot as plt
+
+
 plt.rcParams['font.sans-serif']=['SimHei']
 Wide_body = [332, 333, '33E', '33H', '33L', 773]
 Narrow_body = [319, 320, 321, 323, 325, 738, '73A', '73E', '73H', '73L']
@@ -68,6 +72,7 @@ def GetInfo_1(puck,gate):
     plt.xticks(x1,names,rotation=45)
     plt.show()
     return
+
 def GetInfo_kuanzhai(puck):
     w_success=0
     n_success=0
@@ -311,6 +316,7 @@ def Time_index():
 
 def used_port1(one_list):
     return list(set(one_list))
+
 
 if __name__=="__main__":
     Array=[]

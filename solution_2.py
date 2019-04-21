@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+
+
 import time
 import xlrd
 import datetime
@@ -85,10 +87,9 @@ def GetInfo_1(puck,gate):
     plt.ylim(0,1)
     plt.xticks(x1,names,rotation=45)
     plt.show()
-
-
-
     return
+
+
 def GetInfo_kuanzhai(puck):
     w_success=0
     n_success=0
