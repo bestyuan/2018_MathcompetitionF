@@ -1,3 +1,1 @@
-
-photo
-creat photo to get address
+2018数学竞赛F题
